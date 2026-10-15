@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#F4F6FA">
+  <title>Fusion Fit</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app" aria-live="polite"></main>
+  <nav id="tabbar" class="tabbar" hidden>
+    <a href="#/home" data-tab="home"><span class="ti">🏠</span><span>Home</span></a>
+    <a href="#/programs" data-tab="programs"><span class="ti">🎖️</span><span>Train</span></a>
+    <a href="#/stroke" data-tab="stroke"><span class="ti">❤️</span><span>Stroke</span></a>
+    <a href="#/exercises" data-tab="exercises"><span class="ti">📚</span><span>Exercises</span></a>
+    <a href="#/progress" data-tab="progress"><span class="ti">📈</span><span>Progress</span></a>
+  </nav>
+  <div id="sheet" class="sheet-wrap" hidden></div>
+  <div id="toast" class="toast" hidden role="status"></div>
+  <script src="figure.js"></script>
+  <script src="exercises.js"></script>
+  <script src="programs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
